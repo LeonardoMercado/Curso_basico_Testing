@@ -9,7 +9,7 @@ public class FizzBuzzTest {
     @Test
     public void return_fizz_when_number_is_divisible_by_3(){
         assertEquals("Fizz",FizzBuzz.fizzBuzzCalculator(9));
-        assertEquals("Fizz",FizzBuzz.fizzBuzzCalculator(30));
+        assertEquals("Fizz",FizzBuzz.fizzBuzzCalculator(33));
         assertEquals("Fizz",FizzBuzz.fizzBuzzCalculator(1767));
     }
 
